@@ -14,9 +14,6 @@ const USER_COUNT = __ENV.USER_COUNT || 25
 const SLEEP = __ENV.SLEEP || 0.5
 
 
-
-
-
 export function handleSummary(data) {
   return {
     'Big_Scenario_report_v1.html': htmlReport(data, { debug: false }),
